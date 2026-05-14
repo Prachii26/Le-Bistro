@@ -173,7 +173,7 @@ le-bistro/
 │   │   │   └── (tabs)/          # Menu + Cart tab screens
 │   │   ├── components/          # MenuCard, CartItem, AIChat, Toast …
 │   │   ├── store/               # Zustand — cartStore, chatStore
-│   │   ├── hooks/               # useAIChat, useCart
+│   │   ├── hooks/               # useAIChat
 │   │   ├── data/                # Menu items
 │   │   ├── constants/           # Theme, API config
 │   │   ├── types/               # Shared TypeScript types
@@ -337,4 +337,5 @@ Then scan the QR code with Expo Go.
 
 **Prachi Gupta**
 MSSE · San Jose State University
-[prachigupta2610@gmail.com](mailto:prachigupta2610@gmail.com)
+[prachigupta2610@gmail.com](mailto:prachigupta2610@gmail.com) &
+[prachi.gupta01@sjsu.edu](mailto:prachi.gupta01@sjsu.edu)
