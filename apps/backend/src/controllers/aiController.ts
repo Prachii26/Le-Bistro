@@ -27,12 +27,7 @@ export async function handleChat(req: Request, res: Response): Promise<void> {
   } catch (err: unknown) {
     console.error('[aiController] Error:', err);
 
-    if (
-      err instanceof Error &&
-      (err.message.includes('anthropic') ||
-        err.message.includes('API') ||
-        err.constructor.name.includes('Anthropic'))
-    ) {
+    if (err instanceof Error && err.message.toLowerCase().includes('groq')) {
       res.status(502).json({ error: 'AI service unavailable' });
       return;
     }
