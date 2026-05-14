@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "Le Bistro",
+    "slug": "le-bistro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "lebistro",
+    "ios": { "supportsTablet": false, "bundleIdentifier": "com.lebistro.app" },
+    "android": { "adaptiveIcon": { "backgroundColor": "#F6F8F4" }, "package": "com.lebistro.app" },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}

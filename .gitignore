@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Native build output
+android/
+ios/
+
+# Environment secrets — never commit these
+.env
+.env.local
+.env.*.local
+
+# TypeScript build output
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude Code internal files
+.claude/
+
+# Mobile signing keys
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*

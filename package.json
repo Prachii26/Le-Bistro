@@ -1,0 +1,12 @@
+{
+  "name": "le-bistro",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix apps/backend\" \"npm run start --prefix apps/mobile\"",
+    "dev:backend": "npm run dev --prefix apps/backend",
+    "dev:mobile": "npm run start --prefix apps/mobile"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
